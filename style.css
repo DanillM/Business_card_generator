@@ -1,0 +1,83 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Ensure the body takes up the full height of the viewport */
+  background-image: url('pagebackground2.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  
+}
+
+input {
+  height:10px;
+  padding: 5px;
+  font-size: 10px;
+  
+}
+
+button {
+  height:50px;
+  font-size: 10px;
+  width: 100px;
+}
+textarea {
+resize: none;
+}
+
+.colours {
+  margin: 20px 0;
+}
+
+.biz-card {
+  margin: 30px 5px;
+  height: 300px;
+  width: 500px;
+  border: 1px solid gray;
+  position: absolute;
+}
+
+.contact ul {
+  list-style: none;
+  position: absolute;
+  bottom: 5px;
+  width: 440px;
+  padding: 0 30px;
+}
+
+.contact li {
+  font-size: 14px;
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.right-align {
+  float: right;
+}
+
+.heading p {
+  text-align: center;
+}
+
+#name {
+  font-size:20px;
+}
+
+#job-title {
+  font-size:20px;
+}
+
+.blue {
+  background-color:blue;
+  color: white;
+  
+}
+
+.yellow {
+  background-color: #F5FF8D;
+  
+  
+  
+}
